@@ -9,6 +9,7 @@ export class HomeComponent implements OnInit {
 
   clickCounter: number = 0;
   name: string = '';
+  person: string = 'Beer Lover';
 
   constructor() { }
 
