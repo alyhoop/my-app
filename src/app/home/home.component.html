@@ -5,6 +5,12 @@
   <p>You've clicked <span (click)="countClick()">this</span> {{ clickCounter }} times. </p>
 </div>
 
+
+<div class="example-button-row">
+  <span (click)="reset()">Reset Counter</span>
+</div>
+<br>
+
 <div class="play-container">
   <p>
     <input type="text" [(ngModel)]="name">

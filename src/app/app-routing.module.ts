@@ -6,6 +6,7 @@ import { ListComponent } from './list/list.component';
 import { TestComponent } from './test/test.component';
 
 
+
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'list', component: ListComponent },
