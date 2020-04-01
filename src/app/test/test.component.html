@@ -1,4 +1,18 @@
+<div class="container-fluid">
+  <form [formGroup]="userEmails">
 
-<div class="play-container">
-  <p>Favorite Color: <input type="text" [(ngModel)]="favoriteColor"></p>
+    <h3>Please provide your email addresses</h3>
+
+    <div class="form-group">
+    	<label>Primary Email:</label>
+    	<input type="email" class="form-control" formControlName="primaryEmail" />
+    </div>
+
+    <div class="form-group">
+    	<label>Secondary Email:</label>
+    	<input type="email" class="form-control" formControlName="secondaryEmail" />
+    </div>
+
+  </form>
+
 </div>
